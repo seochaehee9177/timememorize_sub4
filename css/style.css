@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #000;}
+ul{list-style: none;}
+body{font-family: '바른공군체';
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;}
+/*header1*/
+#header1{width: 100%; background:rgb(184, 104, 104); height: 150px;}
+.header1_inner{width: 1320px;margin:  auto;}
+.header1_inner img{padding-top: 20px; }
+
+.link1{float: right;}
+.link1 li{float: left; padding-top: 20px;}
+.link1 li a{color:#fff;margin-right: 10px;}
+.link1 li a:hover{display: block; color:rgb(160, 137, 137); ;}
+           
+.nav{float: right; padding-top: 100px;}
+.nav>li{float:left; padding-right: 150px;position:relative;}
+.nav>li>a{color: #fff; text-align: center; font-size: 24px;
+display: block;}
+
+.nav>li>a:hover{display: block;color: rgb(160, 137, 137);}
+
+/*mainbanner*/
+#mainbanner{width:100%;background: url(images/mainbanner.jpg)no-repeat center top;height:775px;
+    position: relative;}
+.mainbanner_h1{position: absolute; width:1320px;  top:30%; left:50%; color: #fff; font-size:30px;
+line-height: 40px; text-align: center; margin-left: -35%;
+font-family: 'Noto Sans CJK';}
+/*wrap1*/
+#wrap1{background: url(images/bg1.jpg)no-repeat center top; height:786px; text-align: center;}
+#wrap1 iframe{width:1320px;height:786px; margin:0 auto;}
+
+/*wrap2*/
+#wrap2{background: url(images/bg2.jpg)no-repeat center top; height:2307px; width:100%; text-align: center;}
+.store{background:#deb492; width: 1320px; height: 2307px;
+                    margin: 0 auto; text-align:center;}
+.store_h1{text-align:center; padding-top:70px; line-height: 50px; font-size: 40px; color:#4d1515 ;}
+.store_btn li{float: left; display: inline-block; border: 2px #7f4c46 solid; 
+    /* padding:27px 7px; */
+            font-size: 30px;}
+/* .store_btn :nth-child(1){margin-left:100px;} */
+
+.icon{width:30px;height:30px;}
+
+.text{background: url(images/icon.png)no-repeat 90% center;
+     padding:20px 20px;}
+.text2{background: url(images/icon1.png) no-repeat 90% center;  padding:20px 30px;}
+.store_btn{margin:0 0 0 50px; padding-top: 50px; padding-left: 100px;}
+.store_btn li{margin-right:30px; width:273px; height:30px;}
+.store_btn li a{color:#7f4c46;}
+
+
+
+select{width:200px;  background-color: #cc857d;
+    
+    -webkit-appearance: none; /*화살표안보이게*/
+    -moz-appearance: none;/*화살표안보이게*/
+
+    background: url(images/icon1.png) 90% center no-repeat;
+}
+
+
+/*store_list*/
+.store_list{width: 1000px;margin: 0 auto; padding-top:70px;}
+
+
+table{width:100%; border-collapse: collapse;}
+
+
+.store_list_tr1{background:#b88078;padding:10px 20px; font-size:20px;color:#462825;}
+
+
+.store_list_tr2{background:#7f4c46; color:#fff;
+    border-bottom:1px solid #fff; 
+}
+.store_list_tr3{background:#7f4c46; color:#fff;}
+
+.store_list th{padding:20px 0;}
+.store_list td{padding:20px 0;}
+
+/* .store_list tr{background:#7f4c46; color:#fff;} */
+/* .store_list{padding-left: 70px; padding-top:150px;}
+.store_list td{border:1px solid #fff; padding: 5px 7px;} */
+
+
+/*FRANCHISE*/
+#franchise{padding-top: 70px; line-height: 40px; color:#7f4c46;}
